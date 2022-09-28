@@ -1,4 +1,4 @@
- hash = {}
+hash = {}
 for i in (1..10)
     puts "Enter Name"
     name = gets.chomp
@@ -9,6 +9,4 @@ for i in (1..10)
 end
 
 puts "#{hash}"
-
-
 
