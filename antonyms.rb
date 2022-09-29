@@ -1,4 +1,5 @@
-    anto = { :HUMBLE => 'Proud',
+# Use hash to store antonyms of words. E.g.- 'Right'=>'Left', 'Up'=>'Down', etc. Display all words and then ask user to enter a word and display antonym of it.
+anto = { :HUMBLE => 'Proud',
     :SECURE => 'Insecure',
     :IMPORTANT => 'Trivial',
     :SAFE => 'Unsafe',
