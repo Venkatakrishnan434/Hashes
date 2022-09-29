@@ -5,10 +5,11 @@
     :HAPPY => 'sad',
     :BROAD => 'Narrow',
     :INTERNATIONAL => 'Accidental',
-    :BRIGHTEN => 'Fade',
+    :Brighten => 'Fade'
     } 
 
-quest = gets.chomp.upcase.gsub(/ /, "_").to_sym
+    puts "Enter the question"
+quest = gets.chomp.gsub(/ /, "_").to_sym
 
 if value = anto[quest]
   puts "The Antonyms of #{quest} is #{value}"
